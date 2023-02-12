@@ -228,4 +228,159 @@ footer .input-group-text {
   border-right: 3px solid var(--color-ededed);
 }
 
+/* home page end here.. */
 
+/* product page start here */
+
+.product-card {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.product-card .product-image{
+  height: 270px;
+}
+
+.product-card .product-image img{
+  object-fit: contain;
+}
+
+.product-card .product-image>img:last-child{
+  display: block;
+}
+.product-card:hover .product-image>img:nth-child(1){
+  display: block;
+}
+.product-card:hover .product-image>img:last-child{
+  display: block;
+}
+
+.product-card:hover .action-bar{
+  right: 15px;
+}
+
+.action-bar {
+  top: 10%;
+  right: -23px;
+  transition: 0.3s;
+}
+
+.wishlist-icon {
+  top:2%;
+  right: 15px;
+}
+
+.product-card .product-details h6 {
+  color: var(--color-bf4800);
+  font-size: 13px;
+}
+
+.product-card .product-details h5{
+  font-size: 15px;
+  color: var(--color-1c1c1b);
+}
+
+/* product card end here */
+
+/* special product start here.. */
+
+.special-product-card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.special-product-card img{
+  width: 100%;
+  height: 100%;
+}
+
+.special-product-card .special-product-content{
+  width: 100%;
+}
+
+/* special product end here.. */
+
+/* blog start here.. */
+
+.blog-card{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.blog-card img{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blog-content {
+  padding: 15px;
+}
+
+.blog-content p.date{
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--color-777777);
+  padding: 0;
+}
+
+.blog-content h5 {
+  font-size: 18px;
+  color: var(--color-131921);
+}
+
+.blog-content p.desc {
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--color-777777);
+}
+
+.single-blog-card h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+
+.single-blog-card p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+
+/* blog card end here.. */
+
+/* famous card */
+
+.famous-card .famous-content {
+  top: 10%;
+  left: 5%;
+}
+.famous-card img {
+  border-radius: 10px;
+}
+.famous-content h5 {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400px;
+  color: white;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+.famous-content h6 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 500;
+  color: white;
+}
+.famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: white;
+}
+/* famous card ends */
