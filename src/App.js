@@ -18,6 +18,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import RefundPloicy from './pages/RefundPolicy';
 import ShippingPolicy from './pages/ShippingPolicy';
 import TermAndContions from './pages/TermAndContions';
+import SingleBlog from './pages/SingleBlog';
 function App() {
   return (
     <>
@@ -40,6 +41,7 @@ function App() {
             <Route path="/refund-policy" element={<RefundPloicy/>}/>
             <Route path="/shipping-policy" element={<ShippingPolicy/>}/>
             <Route path="/term-conditions" element={<TermAndContions/>}/>
+            <Route path="blog/:id" element={<SingleBlog/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
