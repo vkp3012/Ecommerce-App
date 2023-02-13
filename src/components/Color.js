@@ -5,9 +5,9 @@ const Color = () => {
         <>
             <ul className='colors ps-0'>
                 <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li style={{backgroundColor:"green"}}></li>
+                <li style={{backgroundColor:"blue"}}></li>
+                <li style={{backgroundColor:"navyblue"}}></li>
             </ul>
         </>
     ) 
