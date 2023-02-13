@@ -9,10 +9,12 @@ import famous1 from "../images/famous-1.webp"
 import famous2 from "../images/famous-2.webp"
 import famous3 from "../images/famous-3.webp"
 import famous4 from "../images/famous-4.webp"
+import Meta from "../components/Meta"
 
 const Home = () => {
   return (
     <>
+      <Meta title = {"Ecommerce"}/>
       <Container  class1="home-wrapper-1 py-5">
         <div className='row'>
           <div className='col-6'>
