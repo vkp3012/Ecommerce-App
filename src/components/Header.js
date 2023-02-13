@@ -79,7 +79,7 @@ const Header = () => {
                                 </div>
                                 <div>
                                     <Link
-                                        to = ""
+                                        to = "/login"
                                         className='d-flex align-items-center gap-10 text-white'
                                     >
                                         <img src = {user} alt = "compare" />
