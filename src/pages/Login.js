@@ -18,10 +18,10 @@ const Login = () => {
                                 <CustomInput type="email" name="email" placeholder= "Email" />
                                 <CustomInput type="password" name="passwor" placeholder= "Password" />
                                 <div>
-                                    <Link>Forgot Password</Link>
+                                    <Link to="/forgot-password">Forgot Password</Link>
                                     <div className='mt-3 d-flex justify-content-center gap-15 align-items-center'>
                                         <button className='button border-0' type='submit'>Login</button>
-                                        <Link>SignUp</Link>
+                                        <Link to="/Signup" className='button signup'>SignUp</Link>
                                     </div>
                                 </div>
                             </form>

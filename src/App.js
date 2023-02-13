@@ -10,6 +10,14 @@ import Blogs from './pages/Blogs';
 import CompareProduct from './pages/CompareProduct';
 import Wishlist from './pages/Wishlist';
 import Login from './pages/Login';
+import Signup from './pages/Signup';
+import ForgotPassword from './pages/ForgotPassword';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import RefundPloicy from './pages/RefundPolicy';
+import ShippingPolicy from './pages/ShippingPolicy';
+import TermAndContions from './pages/TermAndContions';
 function App() {
   return (
     <>
@@ -19,11 +27,19 @@ function App() {
             <Route index element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
-            <Route path="/ourstore" element={<OurStore/>}/>
+            <Route path="/product" element={<OurStore/>}/>
             <Route path="/blogs" element={<Blogs/>}/>
             <Route path="/compare-product" element={<CompareProduct/>}/>
             <Route path="/wishlist" element={<Wishlist/>}/>
             <Route path="/login" element={<Login/>}/>
+            <Route path="/signup" element={<Signup/>}/>
+            <Route path="/forgot-password" element={<ForgotPassword/>}/>
+            <Route path="/cart" element={<Cart/>}/>
+            <Route path="/checkout" element={<Checkout/>}/>
+            <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+            <Route path="/refund-policy" element={<RefundPloicy/>}/>
+            <Route path="/shipping-policy" element={<ShippingPolicy/>}/>
+            <Route path="/term-conditions" element={<TermAndContions/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

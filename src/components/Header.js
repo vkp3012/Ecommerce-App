@@ -90,7 +90,7 @@ const Header = () => {
                                 </div>
                                 <div>
                                     <Link
-                                        to = ""
+                                        to = "/cart"
                                         className='d-flex align-items-center gap-10 text-white'
                                     >
                                         <img src = {cart} alt = "compare" />
@@ -136,7 +136,7 @@ const Header = () => {
                                 <div className='menu-links py-2'>
                                     <div className='d-flex align-items-center gap-15'>
                                         <NavLink to="" className="text-white">Home</NavLink>
-                                        <NavLink to="/ourstore" className="text-white">Our Store</NavLink>
+                                        <NavLink to="/product" className="text-white">Our Store</NavLink>
                                         <NavLink to="/blogs" className="text-white">Blogs</NavLink>
                                         <NavLink to="/contact" className="text-white">Contact</NavLink>
                                     </div>
