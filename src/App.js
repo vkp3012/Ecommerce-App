@@ -19,6 +19,8 @@ import RefundPloicy from './pages/RefundPolicy';
 import ShippingPolicy from './pages/ShippingPolicy';
 import TermAndContions from './pages/TermAndContions';
 import SingleBlog from './pages/SingleBlog';
+import SingleProduct from "./pages/SingleProduct";
+
 function App() {
   return (
     <>
@@ -42,6 +44,7 @@ function App() {
             <Route path="/shipping-policy" element={<ShippingPolicy/>}/>
             <Route path="/term-conditions" element={<TermAndContions/>}/>
             <Route path="blog/:id" element={<SingleBlog/>}/>
+            <Route path="product/:id" element={<SingleProduct />} />
           </Route>
         </Routes>
       </BrowserRouter>
